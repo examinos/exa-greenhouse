@@ -12,4 +12,13 @@ typedef struct
 
 } event_param_t;
 
+
+typedef struct
+{
+    twr_tag_humidity_t self;
+    event_param_t param;
+
+} humidity_tag_t;
+
+
 #endif // _APPLICATION_H
